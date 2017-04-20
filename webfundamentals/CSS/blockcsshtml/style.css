@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+	border: 0;
+    /*border: solid 1px black;*/
+}
+
+.container{
+    background-color: #d4d2ae;
+    height: 580px;
+    width: 630px;
+    position: fixed;
+}
+
+.header{
+    margin: 15px 0px 0px 85px;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 900;
+}
+
+.header img{
+    height: 45px;
+    width: 95px;
+    display: inline-block;
+}
+
+.blocks{
+    margin: 15px;
+}
+.blocks div div{
+    border: solid 3px black;
+    margin: 3px 0px 0px 0px;
+}
+
+.oddcolumn div{
+    background-color: rgb(130,180,238);
+}
+
+.evencolumn div{
+    background-color: rgb(243,104,112);
+}
+
+.blocks img{
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+
+.oddcolumn{
+    display: inline-block;
+}
+.evencolumn{
+    display: inline-block;
+}

@@ -1,0 +1,90 @@
+ Directory of C:\Users\Blair Bejan\Desktop
+
+04/17/2017  05:02 PM    <DIR>          .
+04/17/2017  05:02 PM    <DIR>          ..
+04/17/2017  04:16 PM    <DIR>          DojoAssignments
+04/17/2017  05:03 PM    <DIR>          gittest
+04/17/2017  03:51 PM    <DIR>          test
+               0 File(s)              0 bytes
+               5 Dir(s)  218,246,164,480 bytes free
+
+C:\Users\Blair Bejan\Desktop>cd dojoassignments
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git init
+Initialized empty Git repository in C:/Users/Blair Bejan/Desktop/DojoAssignments/.git/
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git add .
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git commit -m "my coding dojo work"
+[master (root-commit) b1a89cf] my coding dojo work
+ 19 files changed, 295 insertions(+)
+ create mode 100644 MEAN/readme.txt
+ create mode 100644 Python/readme.txt
+ create mode 100644 Ruby/readme.txt
+ create mode 100644 iOS/readme.txt
+ create mode 100644 netCore/readme.txt
+ create mode 100644 webfundamentals/CSS/Block_Practice/Block_CSS.css
+ create mode 100644 webfundamentals/CSS/Block_Practice/block_HTML.html
+ create mode 100644 webfundamentals/CSS/readme.txt
+ create mode 100644 webfundamentals/Git/assignments.txt
+ create mode 160000 webfundamentals/Git/new_project
+ create mode 100644 webfundamentals/Git/readme.txt
+ create mode 100644 webfundamentals/HTML/Fake_Blog.html
+ create mode 100644 webfundamentals/HTML/Formatting.txt
+ create mode 100644 webfundamentals/HTML/form.html
+ create mode 100644 webfundamentals/HTML/form.txt
+ create mode 100644 webfundamentals/HTML/indentation.html
+ create mode 100644 webfundamentals/HTML/readme.txt
+ create mode 100644 webfundamentals/Javascript/readme.txt
+ create mode 100644 webfundamentals/about.txt
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git remote add origin https://github.com/BlairBejan/DojoAssignments.git
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git push -u origin master
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 3.56 KiB | 0 bytes/s, done.
+Total 16 (delta 0), reused 0 (delta 0)
+To https://github.com/BlairBejan/DojoAssignments.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2407-FC01
+
+ Directory of C:\Users\Blair Bejan\Desktop\DojoAssignments
+
+04/17/2017  05:17 PM    <DIR>          .
+04/17/2017  05:17 PM    <DIR>          ..
+04/17/2017  04:19 PM    <DIR>          iOS
+04/17/2017  04:17 PM    <DIR>          MEAN
+04/17/2017  04:19 PM    <DIR>          netCore
+04/17/2017  04:17 PM    <DIR>          Python
+04/17/2017  04:18 PM    <DIR>          Ruby
+04/17/2017  04:23 PM    <DIR>          webfundamentals
+               0 File(s)              0 bytes
+               8 Dir(s)  218,245,844,992 bytes free
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>copy nul readme.md
+        1 file(s) copied.
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git add readme.md
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>git commit -m "added a readme.md file"
+[master 51bd1dc] added a readme.md file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+C:\Users\Blair Bejan\Desktop\DojoAssignments>
