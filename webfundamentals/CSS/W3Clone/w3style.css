@@ -1,0 +1,73 @@
+/*Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+    border: solid 1px black;
+}
+
+.foregroundimg{
+	height: 80px;
+}
+
+/*container*/
+
+#container{
+	width: 90%;
+	margin: 1% 5% 0% 5%;
+}
+
+/*header*/
+
+header{
+
+}
+
+header img{
+	height: 80px;
+	display: inline-block;
+}
+
+header h1{
+	display: inline-block;
+}
+header h2{
+	
+}
+
+/*sidebar*/
+
+#sidebar{
+	width: 17
+	%;
+}
+
+/*ads*/
+
+.ad{
+	height: 200px;
+	width: 130px;
+	background-image: url(ad_background.png)
+}
+
+/*navbar*/
+
+#navbar img{
+	height: 17px;
+}
+
+#contactinfo img{
+	height: 30px;
+}
+
+/*maincontent*/
+
+#maincontent img{
+	height: 65px;
+}
+
+/*footnote*/
+
+#footnote img{
+	height: 65px;
+}
