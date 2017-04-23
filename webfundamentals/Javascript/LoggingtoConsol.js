@@ -1,0 +1,11 @@
+var num1 = 1;
+var num2 = -1;
+var num3 = 1.5;
+var num4 = 123456789;
+var string1 = 'blair';
+var string2 = 'beste';
+var string3 = 'bejan';
+var bool1 = true;
+var bool2 = false;
+var undefinedvar = x;
+console.log(num1, num2, num3, num4, string1, string2, string3, bool1, bool2, undefinedvar);
