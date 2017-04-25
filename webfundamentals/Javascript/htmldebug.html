@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>debug</title>
+    <script type="text/javascript">
+      "use strict";
+      function wiseservant(){
+          var stash = 0;
+          var mpd = 0.01;
+          for(var days = 1; days < 31; days++){
+              stash += mpd;
+              mpd *= 2;
+          }
+          console.log(stash);
+      }
+      wiseservant();
+
+      function wiseservantmakes10000(){
+          var stash = 0;
+          var mpd = 0.01;
+          for(var days = 1; days < 31; days++){
+              stash += mpd;
+              if(stash >= 10000){
+                  console.log(days);
+                  break;
+              }
+              mpd *= 2;
+          }
+          console.log(stash);
+      }
+      wiseservantmakes10000();
+    </script>
+  </head>
+
+</html>
