@@ -5,12 +5,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Jayne Doe</title>
     <meta charset="UTF-8">
+    <script type= "text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#fuckcomicsans").click(function(){
+          $( this ).css("font", "25px Arial");
+        });
+
+
+
+      });
+    </script>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Jayne Doe</h1>
+            <h1 id="fuckcomicsans">Jayne Doe</h1>
             <h2>Master of shadows and the internet!</h2>
         </header>
         <div class="content">

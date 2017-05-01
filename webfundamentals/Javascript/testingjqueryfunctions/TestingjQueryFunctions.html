@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery FUNctions</title>
+    <link rel="stylesheet" href="jquerystyle.css">
+    <script type= "text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    "use strict";
+    $(document).ready(function(){
+        $("#hide").click(function(){
+          $("#hideme").hide();
+        });
+        $("#show").click(function(){
+          $("#hideme").show();
+        });
+        $("#toggle").click(function(){
+          $("#hideme").toggle();
+        });
+        $("#slideup").click(function(){
+          $("#hideme").slideUp();
+        });
+        $("#slidedown").click(function(){
+          $("#hideme").slideDown();
+        });
+        $("#slidetoggle").click(function(){
+          $("#hideme").slideToggle();
+        });
+        $("#fadein").click(function(){
+          $("#hideme").fadeIn();
+        });
+        $("#fadeout").click(function(){
+          $("#hideme").fadeOut();
+        });
+        $("#addclass").click(function(){
+          $(".addclass .something").addClass("blue");
+          $(".addclass .something").append(": ThankYou!")
+        });
+        $("#beforeandafter").click(function(){
+          $(".addclass .something").before("<p>friend 1</p>");
+          $(".addclass .something").after("<p>friend 2</p>");
+        });
+        $("#copy").click(function(){
+          var buttondupe = $("#copy").html();
+          $("#copy").after(buttondupe);
+        });
+        function findage(){
+          var birthday = $("#birthday").val();
+          $(".output").html("<p>Your age is:</p>" + birthday);
+        }
+        $("input").change(findage);
+        findage();
+    });
+
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Testing jQuery FUNctions</h1>
+    </header>
+    <div class="clickhideshow">
+      <h5>Click, Hide, Show, toggle, slideup, slidedown, slidetoggle, fadein, fadeout</h5>
+      <button id="hide" type="button" name="button">hide</button>
+      <button id="show" type="button" name="button">show</button>
+      <button id="toggle" type="button" name="button">toggle</button>
+      <button id="slideup" type="button" name="button">slide up</button>
+      <button id="slidedown" type="button" name="button">slide down</button>
+      <button id="slidetoggle" type="button" name="button">slide toggle</button>
+      <button id="fadein" type="button" name="button">fade in</button>
+      <button id="fadeout" type="button" name="button">fade out</button>
+      <p id="hideme">hide me!</p>
+    </div>
+    <div class="addclass">
+      <button id="addclass" type="button" name="button">save the p!</button>
+      <button id="beforeandafter" type="button" name="button">Give him some friends</button>
+      <p class="something">IM BLUE IF I WERE GREEN I WOULD DIE</p>
+    </div>
+    <div class="html">
+      <button id="copy" type="button" name="button">I am many</button>
+    </div>
+    <div class="age">
+      <h5>date of birth</h5>
+      <input id="birthday" type="date" name="birthday">
+      <div class="output"></div>
+    </div>
+
+  </body>
+</html>

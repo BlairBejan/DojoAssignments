@@ -1,0 +1,11 @@
+.clickhideshowtoggle{
+  border: solid 1px black;
+}
+
+.addclass p{
+  background-color: green;
+}
+
+.addclass .blue{
+  background-color: blue;
+}
