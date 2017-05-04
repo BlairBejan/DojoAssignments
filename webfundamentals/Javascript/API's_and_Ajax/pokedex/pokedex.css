@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: solid 1px black;
+}
+
+.pokemon{
+  width: 70%;
+  display: inline-block;
+}
+
+.info{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}

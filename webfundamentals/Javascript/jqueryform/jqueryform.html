@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form into chart</title>
+    <link rel="stylesheet" href="jqueryform.css">
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+      $("document").ready(function(){
+        $(".adduser").submit(function(){
+          var a = "<td>" + $(".0").val() + "</td>";
+          var b = "<td>" + $(".1").val() + "</td>";
+          var c = "<td>" + $(".2").val() + "</td>";
+          var d = "<td>" + $(".3").val() + "</td>";
+          $("#users").append("<tr>" + a + b + c + d + "</tr>")
+          return false;
+          // tried to debug this for 20 min before i realized i wasnt typing anything into the fields before submiting so blank lines were showing up xd
+        });
+
+
+      });
+    </script>
+  </head>
+  <body>
+    <table id="users">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email Address</th>
+        <th>Contact #</th>
+      </tr>
+    </table>
+    <div id="registration">
+      <h2>Add User</h2>
+      <form class="adduser" action="index.html" method="post">
+        First Name:
+        <input class="0" type="text" name="firstname" value="">
+        Last Name:
+        <input class="1" type="text" name="lastname" value="">
+        Email Address:
+        <input class="2" type="text" name="email" value="">
+        Contact #:
+        <input class="3" type="text" name="contact" value="">
+        <button type="submit" name="button">submit</button>
+      </form>
+    </div>
+  </body>
+</html>

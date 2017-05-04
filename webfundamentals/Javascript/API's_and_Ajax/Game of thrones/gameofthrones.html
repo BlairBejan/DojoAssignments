@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="gameofthrones.css">
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        $("img").click(function(){
+          var url = "https://anapioficeandfire.com/api/houses?name=" + $(this).attr("name");
+          var housename = $(this).attr("name")
+          $.get(url, function(res){
+            var housewords = res[0].words;
+            var housetitles = res[0].titles;
+            $(".name").html(housename);
+            $(".words").html(housewords);
+            $("li").hide();
+            $.each(housetitles, function(i, val){
+              $(".titles").append("<li>" + val + "</li>")
+            });
+            console.log(res[0].titles);
+          }, "json");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Game of Thrones: Houses</h1>
+    <img src="baratheon.png" alt="baratheon" name="House Baratheon of Storm's End">
+    <img src="lannister.jpg" alt="lannister" name="House Lannister of Casterly Rock">
+    <img src="stark.jpg" alt="stark" name="House Stark of Winterfell">
+    <img src="targaryen.jpg" alt="targaryen" name="House Targaryen of King's Landing">
+    <div class="houseinfo">
+      <p>Name</p>
+      <p class="name"></p>
+      <p>Words</p>
+      <p class="words"></p>
+      <p>Titles</p>
+      <ul class="titles"></ul>
+    </div>
+  </body>
+</html>
