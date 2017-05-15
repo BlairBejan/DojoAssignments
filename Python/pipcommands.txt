@@ -1,0 +1,7 @@
+pip install django: installs django
+pip list seems to list the installed packages
+running pip install django again reveals that you already have that package installed
+pip freeze lists the version of packages installed
+pip uninstall django uninstalls django
+pip show django returned nothing because it was uninstalled
+pip search flask searches for all the packages you can install with pip with the words flask in them
