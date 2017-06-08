@@ -1,0 +1,8 @@
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\bin\Debug\netcoreapp1.1\fund.deps.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\bin\Debug\netcoreapp1.1\fund.runtimeconfig.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\bin\Debug\netcoreapp1.1\fund.runtimeconfig.dev.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\obj\Debug\netcoreapp1.1\fund.AssemblyInfo.cs
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\bin\Debug\netcoreapp1.1\fund.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\bin\Debug\netcoreapp1.1\fund.pdb
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\obj\Debug\netcoreapp1.1\fund.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fund\obj\Debug\netcoreapp1.1\fund.pdb

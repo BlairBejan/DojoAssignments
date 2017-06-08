@@ -1,0 +1,8 @@
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\bin\Debug\netcoreapp1.1\fool.deps.json
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\bin\Debug\netcoreapp1.1\fool.runtimeconfig.json
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\bin\Debug\netcoreapp1.1\fool.runtimeconfig.dev.json
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\bin\Debug\netcoreapp1.1\fool.dll
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\bin\Debug\netcoreapp1.1\fool.pdb
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\obj\Debug\netcoreapp1.1\fool.AssemblyInfo.cs
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\obj\Debug\netcoreapp1.1\fool.dll
+c:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\fool\obj\Debug\netcoreapp1.1\fool.pdb
