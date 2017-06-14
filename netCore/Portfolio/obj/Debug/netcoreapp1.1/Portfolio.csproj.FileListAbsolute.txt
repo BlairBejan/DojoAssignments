@@ -1,0 +1,8 @@
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.deps.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.runtimeconfig.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.runtimeconfig.dev.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.pdb
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.AssemblyInfo.cs
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.pdb

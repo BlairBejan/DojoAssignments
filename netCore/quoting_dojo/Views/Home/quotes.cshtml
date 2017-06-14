@@ -1,0 +1,7 @@
+<h1>Here Are The Awesome Quotes</h1>
+@{
+    foreach(var item in @ViewBag.quotes){
+        <p>@item["name"]</p>
+        <p>@item["quote"]</p>
+    }
+}

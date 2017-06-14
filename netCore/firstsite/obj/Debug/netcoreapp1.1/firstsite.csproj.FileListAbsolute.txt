@@ -1,0 +1,8 @@
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\bin\Debug\netcoreapp1.1\firstsite.deps.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\bin\Debug\netcoreapp1.1\firstsite.runtimeconfig.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\bin\Debug\netcoreapp1.1\firstsite.runtimeconfig.dev.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\bin\Debug\netcoreapp1.1\firstsite.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\bin\Debug\netcoreapp1.1\firstsite.pdb
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\obj\Debug\netcoreapp1.1\firstsite.AssemblyInfo.cs
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\obj\Debug\netcoreapp1.1\firstsite.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\firstsite\obj\Debug\netcoreapp1.1\firstsite.pdb

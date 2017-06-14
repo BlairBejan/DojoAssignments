@@ -1,0 +1,8 @@
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\bin\Debug\netcoreapp1.1\testtest.deps.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\bin\Debug\netcoreapp1.1\testtest.runtimeconfig.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\bin\Debug\netcoreapp1.1\testtest.runtimeconfig.dev.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\bin\Debug\netcoreapp1.1\testtest.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\bin\Debug\netcoreapp1.1\testtest.pdb
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\obj\Debug\netcoreapp1.1\testtest.AssemblyInfo.cs
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\obj\Debug\netcoreapp1.1\testtest.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\testtest\obj\Debug\netcoreapp1.1\testtest.pdb
