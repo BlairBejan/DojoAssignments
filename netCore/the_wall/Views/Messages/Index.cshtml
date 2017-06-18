@@ -1,0 +1,20 @@
+<h1>Welcome to the Wall</h1>
+<p>@ViewBag.CurrentUserName</p>
+<a href="/logout">Logout</a>
+<h3>Post a Message</h3>
+<form action="/message" method="post">
+    <input type="text" name="message" value="">
+    <button type="submit">Post a Message</button>
+</form>
+@{
+    foreach(var message in @ViewBag.AllMessages){
+        <p>@message["first_name"]</p>
+        <p>@message["created_at"]</p>
+        <p>@message["message"]</p>
+        <form action="/comment" method="post">
+            <input type="text" name="comment" value="">
+            <input type="hidden" name="messageid" value="@message["id"]">
+            <button type="Submit">Post Comment</button>
+        </form>
+    }
+}
