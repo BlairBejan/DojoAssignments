@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Write a New Review</h1>
+<form action="/review" method="post">
+    <label for="reviewer_name">Reviewer Name</label>
+    <input type="text" name="reviewer_name" value="">
+    <label for="restaurant_name">Restaurant Name</label>
+    <input type="text" name="restaurant_name" value="">
+    <label for="review">Review</label>
+    <textarea rows="10" cols="50"></textarea>
+    <label for="date">Date of Visit</label>
+    <input type="date" name="date" value="">
+    <label for="stars">Stars</label>
+    <select name="stars">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
