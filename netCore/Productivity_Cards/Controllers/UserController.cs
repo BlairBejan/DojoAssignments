@@ -30,7 +30,8 @@ namespace Productivity_Cards.Controllers
                 PasswordHasher<User> Hasher = new PasswordHasher<User>();
                 model.password = Hasher.HashPassword(model, model.password);
                 userfactory.AddUser(model);
-                return Json("success");
+                ViewBag.Errors = "Account Created Procede to Log in";
+                return RedirectToAction("LogRegPage");
             }
             ViewBag.Errors = ModelState.Values;
             return RedirectToAction("LogRegPage");
@@ -42,23 +43,18 @@ namespace Productivity_Cards.Controllers
             var user = userfactory.GetUserByEmail(email);
             if(user != null && password != null)
             {
-                System.Console.WriteLine("*****************");
-                System.Console.WriteLine("account found checking pass");
                 var Hasher = new PasswordHasher<User>();
                 if(0 != Hasher.VerifyHashedPassword(user, user.password, password))
                 {
-                    System.Console.WriteLine("********************");
-                    System.Console.WriteLine("pass good");
-                    ViewBag.CurrentUserId = user.user_id;
-                    return Json(user.user_id);
+                    HttpContext.Session.SetInt32("UserId", user.user_id);
+                    HttpContext.Session.SetString("UserAlias", user.alias);
+                    System.Console.WriteLine("******************");
+                    return RedirectToAction("Index", "Hero");
                 }
             }
-            System.Console.WriteLine("*********************");
-            System.Console.WriteLine("account not found");
             string error = "account not found";
             ViewBag.Errors = error;
             return RedirectToAction("LogRegPage");
-
         }
     }
 }

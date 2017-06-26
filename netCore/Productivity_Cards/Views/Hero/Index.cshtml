@@ -1,0 +1,19 @@
+<h1>Welcome @ViewBag.Alias</h1>
+<h3>Before we get started why dont you pick a class</h3>
+<!--mage
+    shamen
+    warrior
+    healer
+    -->
+<form action="/selecthero" method="post">
+    <label for="hero">Mage:</label>
+    <input type="radio" name="hero" value="mage">
+    <label for="hero">Shamen:</label>
+    <input type="radio" name="hero" value="shamen">
+    <label for="hero">Warrior:</label>
+    <input type="radio" name="hero" value="warrior">
+    <label for="hero">Healer:</label>
+    <input type="radio" name="hero" value="healer">
+    <button type="submit">Submit</button>
+</form>
+<a href="#">Skip for now</a>
