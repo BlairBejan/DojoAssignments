@@ -11,18 +11,35 @@ namespace Productivity_Cards.Controllers
 {
     public class HeroController : Controller
     {
+        private readonly HeroFactory herofactory;
         [HttpGet]
         [Route("/heroselection")]
         public IActionResult Index(){
-            string Alias = HttpContext.Session.GetString("UserAlias");
-            ViewBag.Alias = Alias;
+            if(!CheckLogin()){
+                string Alias = HttpContext.Session.GetString("UserAlias");
+                ViewBag.Alias = Alias;
+                ViewBag.Errors = new List<string>();
+            }
             return View();
         }
 
         [HttpPost]
         [Route("/selecthero")]
         public IActionResult SelectHero(Hero model){
+            if(!CheckLogin()){
+                if (ModelState.IsValid)
+                {
+                    int? userId = HttpContext.Session.GetInt32("UserId");
+                    int userid = userId ?? default(int);
+                    herofactory.CreateNewHero(model, userid);
+                }
+            }
+            ViewBag.Errors = ModelState.Values;
             return Json("something");
+        }
+        private bool CheckLogin()
+        {
+            return (HttpContext.Session.GetInt32("UserId") != null);
         }
     }
 }
