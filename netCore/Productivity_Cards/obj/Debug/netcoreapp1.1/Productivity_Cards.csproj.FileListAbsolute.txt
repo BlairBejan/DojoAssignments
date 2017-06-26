@@ -1,0 +1,8 @@
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\bin\Debug\netcoreapp1.1\Productivity_Cards.deps.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\bin\Debug\netcoreapp1.1\Productivity_Cards.runtimeconfig.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\bin\Debug\netcoreapp1.1\Productivity_Cards.runtimeconfig.dev.json
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\bin\Debug\netcoreapp1.1\Productivity_Cards.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\bin\Debug\netcoreapp1.1\Productivity_Cards.pdb
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\obj\Debug\netcoreapp1.1\Productivity_Cards.AssemblyInfo.cs
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\obj\Debug\netcoreapp1.1\Productivity_Cards.dll
+C:\Users\Blair Bejan\Desktop\DojoAssignments\netCore\Productivity_Cards\obj\Debug\netcoreapp1.1\Productivity_Cards.pdb
