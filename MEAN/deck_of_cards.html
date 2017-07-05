@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      class Card{
+        constructor(suit, value){
+          this.suit = suit;
+          this.value = value;
+        }
+        get stringSuit(){
+          if(this.suit == 1){return "spades"}
+          if(this.suit == 2){return "clubs"}
+          if(this.suit == 3){return "hearts"}
+          if(this.suit == 4){return "diamonds"}
+        }
+        get stringValue(){
+          if(this.value == 1){return "ace"}
+          else if(this.value == 11){return "jack"}
+          else if(this.value == 12){return "queen"}
+          else if(this.value == 13){return "king"}
+          else{return this.value.toString()}
+        }
+      }
+      class Deck{
+        constructor(deck_id){
+          this.deck_id = deck_id;
+          this.active_deck = [];
+          this.makeDeck();
+        }
+        makeDeck(){
+          for(var i = 1; i <= 4; i++){
+            for(var x = 1; x <= 13; x++){
+              let card = new Card(i, x);
+              this.active_deck.push(card);
+            }
+          }
+        }
+        shuffle(){
+          for(let i = 1; i < 52; i++){
+            let random_index = Math.ceil(Math.random() * 52)
+            let temp = this.active_deck[i];
+            this.active_deck[i] = this.active_deck[random_index];
+            this.active_deck[random_index] = temp;
+          }
+          return this;
+        }
+        deal(){
+          return this.active_deck.pop();
+        }
+        reset(){
+          this.active_deck = [];
+          this.makeDeck();
+          return this;
+        }
+      }
+      class Player{
+        constructor(name){
+          this.name = name;
+          this.hand = [];
+        }
+        takeCard(Deck){
+          this.hand.push(Deck.deal());
+          return this;
+        }
+        discard(i){
+          return this.hand.splice(i, 1);
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    function magic_multiply(x, y){
+      if(x == 0 && y == 0){
+        return("All Inputs 0");
+
+      if(!typeof y === 'number'){
+        return("Error: Second Input Must Be Int");
+      }
+      if(typeof x === 'object'){
+        var newArr = [];
+        for(var item in x){
+          x[item] * = y;
+          newArr.push(x[item]);
+        }
+        return newArr;
+      }
+      if(typeof x === 'string'){
+        return(x.repeat(y));
+      }
+      x *= y;
+      return x;
+    };
+    </script>
+  </body>
+</html>

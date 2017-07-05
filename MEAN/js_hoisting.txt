@@ -1,0 +1,7 @@
+1. world
+2. magnet
+3. only ok, brendan
+4. chicken, halfchicken
+5. chicken, fish, error, error
+6. undefined, rock, rock
+7. san jose, seatte, seatte, san jose.

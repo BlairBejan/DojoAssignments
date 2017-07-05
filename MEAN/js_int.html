@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function star_string(n){return ("*".repeat(n))};
+      function draw_stars(a){
+        for(var i = 0; i < a.length; i++){
+          if(typeof a[i] === 'string'){
+            console.log(a[i][0].repeat(a[i].length));
+          }
+          else{console.log("*".repeat(a[i]))};
+        }
+      }
+
+    </script>
+  </body>
+</html>
